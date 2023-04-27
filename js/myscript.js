@@ -20,6 +20,7 @@ function init() {
 
     createjs.Sound.addEventListener("fileload", createjs.proxy(soundLoaded, this)); 
     createjs.Sound.registerSounds(sounds, assetsPath);
+	console.log(assetsPath);
 }
 
 function soundLoaded(event) {
