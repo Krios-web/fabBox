@@ -55,5 +55,6 @@ a.audio:hover, a.audio.active {
 		display: flex;
 	    flex-direction: column;
 	    align-items: center;
+    		box-sizing: border-box;
 	}
 } 
