@@ -42,6 +42,7 @@ function stop() {
 }
 
 function playSound(target) {
+	console.log('click!');
     stop();
     var instance = createjs.Sound.play(target.id, createjs.Sound.INTERRUPT_ANY, 0, 0, false, 1);
 
