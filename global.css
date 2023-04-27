@@ -10,6 +10,7 @@ body {
 .main {
     height: 100vh;
     background: white;
+    padding:40px 0;
     max-width: 60%;
     display: flex;
 }
@@ -43,5 +44,15 @@ a.audio:hover, a.audio.active {
     background-color:#d9000c;
     color:white;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
+	.main {
+	    max-width: 100%;
+	    height: auto;
+	    min-height: 100vh;
+	}	
+	.wrapper {
+		display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
 } 
