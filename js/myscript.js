@@ -11,7 +11,7 @@ function init() {
         return;
     }
 
-    var assetsPath = "sounds/";
+    var assetsPath = "../sounds/";
     var sounds = [
 	    {src:"1.mp3",id:1},
         {src:"2.mp3",id:2},
