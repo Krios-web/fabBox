@@ -47,7 +47,7 @@ a.audio:hover, a.audio.active {
     background-color:#d9000c;
     color:white;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.main  {
 	    width: 100%;
 	    max-width: 100%;
@@ -61,6 +61,6 @@ a.audio:hover, a.audio.active {
 	    align-items: center;
 	}
 	.audios {		
-    		justify-content: center;
+	     justify-content: center;
 	}
 } 
