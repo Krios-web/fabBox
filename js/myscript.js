@@ -52,11 +52,11 @@ function playSound(target) {
     var width = target.offsetWidth;
 
     target.innerHTML = '<img class="icon" src="/images/preloader.svg" width="40" height="25" alt="">';
-    target.className = "button active";
+    target.className = "audio active";
     target.style.width = width+"px";
     instance.addEventListener("complete", function (instance) {
         target.innerHTML = text;
-        target.className = "button";
+        target.className = "audio";
     });
     instances.push(target);
     return false;
